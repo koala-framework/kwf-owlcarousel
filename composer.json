@@ -1,0 +1,26 @@
+{
+    "name": "koala-framework/kwf-owlcarousel",
+    "description": "Owl Carousel 2 Integration for Koala Framework",
+    "homepage": "http://www.koala-framework.org/",
+    "license": "BSD-2-Clause",
+    "type": "library",
+    "require": {
+        "koala-framework/owlcarousel": "dev-master",
+        "koala-framework/koala-framework": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "koala-framework/library-qunit": "1.*",
+        "koala-framework/library-qunit-phantomjs-runner": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Kwc_List_": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "Kwc_List_": "tests"
+        }
+    }
+}

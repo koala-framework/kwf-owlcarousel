@@ -1,0 +1,956 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a0cccbee9e6e79d75ea71dfc3aacebd0",
+    "packages": [
+        {
+            "name": "koala-framework/jquery-easing",
+            "version": "v1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/jquery-easing.git",
+                "reference": "488d5387d229333c02cf7612a2a95986654e4266"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/jquery-easing/zipball/488d5387d229333c02cf7612a2a95986654e4266",
+                "reference": "488d5387d229333c02cf7612a2a95986654e4266",
+                "shasum": ""
+            },
+            "require": {
+                "koala-framework/library-jquery": ">1.7"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "description": "Shim Repository for jQuery Easing plugin",
+            "homepage": "http://gsgd.co.uk/sandbox/jquery/easing/",
+            "time": "2014-07-15 09:22:50"
+        },
+        {
+            "name": "koala-framework/jquery-transit",
+            "version": "v0.9.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/jquery-transit.git",
+                "reference": "657379c44bef18bb1af655c66099108b8ab597a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/jquery-transit/zipball/657379c44bef18bb1af655c66099108b8ab597a3",
+                "reference": "657379c44bef18bb1af655c66099108b8ab597a3",
+                "shasum": ""
+            },
+            "require": {
+                "koala-framework/library-jquery": ">1.7"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Shim Repository for jQuery Transit plugin",
+            "homepage": "http://ricostacruz.com/jquery.transit/",
+            "time": "2014-07-15 10:26:24"
+        },
+        {
+            "name": "koala-framework/koala-framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/koala-framework.git",
+                "reference": "7856253f08c6e49e3a49a2476253fe7498fdcad2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/7856253f08c6e49e3a49a2476253fe7498fdcad2",
+                "reference": "7856253f08c6e49e3a49a2476253fe7498fdcad2",
+                "shasum": ""
+            },
+            "require": {
+                "koala-framework/jquery-easing": "1.3",
+                "koala-framework/jquery-transit": "0.9.9",
+                "koala-framework/library-css3pie": "1.0.0",
+                "koala-framework/library-extjs2": "2.3.0.*",
+                "koala-framework/library-htmlawed": "1.1.14",
+                "koala-framework/library-jquery": "1.11.1",
+                "koala-framework/library-modernizr": "1.8.2.*",
+                "koala-framework/library-mustache-js": "0.8.2",
+                "koala-framework/library-silkicons": "1.3",
+                "koala-framework/library-susy": "1.0.9",
+                "koala-framework/library-swfupload": "2.2.0.1",
+                "koala-framework/library-tinymce": "3.5.8",
+                "koala-framework/library-zendframework1": "1.12.6"
+            },
+            "require-dev": {
+                "amazonwebservices/aws-sdk-for-php": "1.5.14",
+                "phpunit/phpunit": "3.7.*",
+                "phpunit/phpunit-selenium": "*"
+            },
+            "suggest": {
+                "amazonwebservices/aws-sdk-for-php": "Integration with Amazon Web Services",
+                "phpoffice/phpexcel": "Allows exporting as XLS in AutoGrid",
+                "tecnick.com/tcpdf": "Allows generating pdfs from components"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Kwf_": "",
+                    "Kwc_": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Framework and CMS based on Zend Framework and ExtJS",
+            "homepage": "http://www.koala-framework.org/",
+            "time": "2014-07-22 06:45:29"
+        },
+        {
+            "name": "koala-framework/library-compass-mixins",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-compass-mixins.git",
+                "reference": "7f8c2c7688d213dfed9ca7d3788e42ad965b6508"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-compass-mixins/zipball/7f8c2c7688d213dfed9ca7d3788e42ad965b6508",
+                "reference": "7f8c2c7688d213dfed9ca7d3788e42ad965b6508",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A collection of compass' stylesheet for libsass",
+            "homepage": "https://github.com/Igosuki/compass-mixins",
+            "time": "2014-05-23 13:37:53"
+        },
+        {
+            "name": "koala-framework/library-css3pie",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-css3pie.git",
+                "reference": "b2a7b69fa381065f4d1b90d03620c05bc5b4670f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-css3pie/zipball/b2a7b69fa381065f4d1b90d03620c05bc5b4670f",
+                "reference": "b2a7b69fa381065f4d1b90d03620c05bc5b4670f",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "CCSS3 PIE JavaScript Library",
+            "homepage": "http://css3pie.com/",
+            "time": "2014-06-03 18:55:48"
+        },
+        {
+            "name": "koala-framework/library-extjs2",
+            "version": "v2.3.0-p0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-extjs2.git",
+                "reference": "e1aa3a546a0bbaffdfb454d36c37c628b3ce5a6b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-extjs2/zipball/e1aa3a546a0bbaffdfb454d36c37c628b3ce5a6b",
+                "reference": "e1aa3a546a0bbaffdfb454d36c37c628b3ce5a6b",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "description": "ExtJS JavaScript Library",
+            "homepage": "http://www.sencha.com/products/extjs/",
+            "time": "2014-06-25 11:14:26"
+        },
+        {
+            "name": "koala-framework/library-htmlawed",
+            "version": "v1.1.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-htmlawed.git",
+                "reference": "bc23ceaea4bc740a5a9e47c982cb054546baa2c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-htmlawed/zipball/bc23ceaea4bc740a5a9e47c982cb054546baa2c3",
+                "reference": "bc23ceaea4bc740a5a9e47c982cb054546baa2c3",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Htmlawed library",
+            "homepage": "http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/",
+            "time": "2014-06-02 06:11:36"
+        },
+        {
+            "name": "koala-framework/library-jquery",
+            "version": "v1.11.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-jquery.git",
+                "reference": "13fcfe269d677d008a88f8a037bb65d40a7bdbf7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-jquery/zipball/13fcfe269d677d008a88f8a037bb65d40a7bdbf7",
+                "reference": "13fcfe269d677d008a88f8a037bb65d40a7bdbf7",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "jQuery JavaScript Library",
+            "homepage": "http://jquery.com",
+            "time": "2014-05-23 13:39:40"
+        },
+        {
+            "name": "koala-framework/library-modernizr",
+            "version": "v1.8.2-p1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-modernizr.git",
+                "reference": "5eebf92eba5f2e4ec36de646dc5f25e57b45d92a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-modernizr/zipball/5eebf92eba5f2e4ec36de646dc5f25e57b45d92a",
+                "reference": "5eebf92eba5f2e4ec36de646dc5f25e57b45d92a",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Modernizr JavaScript Library",
+            "homepage": "http://modernizr.com/",
+            "time": "2014-06-16 06:34:49"
+        },
+        {
+            "name": "koala-framework/library-mustache-js",
+            "version": "v0.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-mustache-js.git",
+                "reference": "508169dab21e35a37f0a92d3963d6b2cc27458e5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-mustache-js/zipball/508169dab21e35a37f0a92d3963d6b2cc27458e5",
+                "reference": "508169dab21e35a37f0a92d3963d6b2cc27458e5",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Minimal templating with {{mustaches}} in JavaScript",
+            "homepage": "https://github.com/janl/mustache.js",
+            "time": "2014-06-23 12:24:06"
+        },
+        {
+            "name": "koala-framework/library-silkicons",
+            "version": "v1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-silkicons.git",
+                "reference": "f7fee072786fc330bdbaf69d2fbf036f39eb53fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-silkicons/zipball/f7fee072786fc330bdbaf69d2fbf036f39eb53fa",
+                "reference": "f7fee072786fc330bdbaf69d2fbf036f39eb53fa",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Creative Commons Attribution 2.5 License"
+            ],
+            "authors": [
+                {
+                    "name": "Mark James",
+                    "homepage": "http://www.famfamfam.com/"
+                }
+            ],
+            "description": "This is the Famfamfam silk icon set, wrapped into an easy to use PHP composer package.",
+            "homepage": "http://www.famfamfam.com/",
+            "keywords": [
+                "famfamfam",
+                "icons",
+                "silk"
+            ],
+            "time": "2014-05-23 13:40:04"
+        },
+        {
+            "name": "koala-framework/library-susy",
+            "version": "v1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-susy.git",
+                "reference": "d6f524118e07dd7d7cfa96967fc4be221c820e4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-susy/zipball/d6f524118e07dd7d7cfa96967fc4be221c820e4b",
+                "reference": "d6f524118e07dd7d7cfa96967fc4be221c820e4b",
+                "shasum": ""
+            },
+            "require": {
+                "koala-framework/library-compass-mixins": "1.0.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "description": "Responsive layout toolkit for Sass",
+            "homepage": "http://susy.oddbird.net/",
+            "time": "2014-05-23 13:40:29"
+        },
+        {
+            "name": "koala-framework/library-swfobject",
+            "version": "v2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-swfobject.git",
+                "reference": "c926af6c1b7448aa48724891c57ef62206a67e45"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-swfobject/zipball/c926af6c1b7448aa48724891c57ef62206a67e45",
+                "reference": "c926af6c1b7448aa48724891c57ef62206a67e45",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "SWFObject JavaScript Library",
+            "homepage": "https://github.com/swfobject/swfobject",
+            "time": "2014-05-23 13:40:50"
+        },
+        {
+            "name": "koala-framework/library-swfupload",
+            "version": "v2.2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-swfupload.git",
+                "reference": "7eb7c5c2a7a0d7144c2acd35131367c8fcb6683c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-swfupload/zipball/7eb7c5c2a7a0d7144c2acd35131367c8fcb6683c",
+                "reference": "7eb7c5c2a7a0d7144c2acd35131367c8fcb6683c",
+                "shasum": ""
+            },
+            "require": {
+                "koala-framework/library-swfobject": "2.2"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "SWFUpload JavaScript Library",
+            "homepage": "http://code.google.com/p/swfupload/",
+            "time": "2014-06-02 08:22:41"
+        },
+        {
+            "name": "koala-framework/library-tinymce",
+            "version": "v3.5.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-tinymce.git",
+                "reference": "e90852f9e3bc40154278ff7082fcd8f5b4efce32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-tinymce/zipball/e90852f9e3bc40154278ff7082fcd8f5b4efce32",
+                "reference": "e90852f9e3bc40154278ff7082fcd8f5b4efce32",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "description": "TinyMCE JavaScript Library",
+            "homepage": "http://www.tinymce.com/",
+            "time": "2014-05-23 13:43:06"
+        },
+        {
+            "name": "koala-framework/library-zendframework1",
+            "version": "v1.12.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-zendframework1.git",
+                "reference": "ed59990bdf36d57135de1aae120ad14ae7d89873"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-zendframework1/zipball/ed59990bdf36d57135de1aae120ad14ae7d89873",
+                "reference": "ed59990bdf36d57135de1aae120ad14ae7d89873",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.11"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.12.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Zend_": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "library/"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Zend Framework 1",
+            "homepage": "http://framework.zend.com/",
+            "keywords": [
+                "ZF1",
+                "framework"
+            ],
+            "time": "2014-05-28 14:13:03"
+        },
+        {
+            "name": "koala-framework/owlcarousel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/owlcarousel.git",
+                "reference": "c6a84a4f48098477520e5dd7579254d8edf6a2e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/owlcarousel/zipball/c6a84a4f48098477520e5dd7579254d8edf6a2e3",
+                "reference": "c6a84a4f48098477520e5dd7579254d8edf6a2e3",
+                "shasum": ""
+            },
+            "require": {
+                "koala-framework/library-jquery": ">1.8.3"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Shim Repository for Owl Carousel 2 library",
+            "homepage": "http://owlcarousel.owlgraphic.com/",
+            "time": "2014-07-23 08:03:28"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "koala-framework/library-qunit",
+            "version": "v1.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-qunit.git",
+                "reference": "ca159db33e00703699f28eaef7a758192f0c804d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-qunit/zipball/ca159db33e00703699f28eaef7a758192f0c804d",
+                "reference": "ca159db33e00703699f28eaef7a758192f0c804d",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "An easy-to-use JavaScript Unit Testing framework.",
+            "homepage": "http://qunitjs.com",
+            "time": "2014-06-13 07:03:56"
+        },
+        {
+            "name": "koala-framework/library-qunit-phantomjs-runner",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/library-qunit-phantomjs-runner.git",
+                "reference": "5c58caab41412921019503c07d881eb064295925"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/library-qunit-phantomjs-runner/zipball/5c58caab41412921019503c07d881eb064295925",
+                "reference": "5c58caab41412921019503c07d881eb064295925",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A PhantomJS-powered headless test runner for QUnit",
+            "homepage": "http://qunitjs.com",
+            "time": "2014-06-13 12:36:53"
+        },
+        {
+            "name": "phpunit/php-code-coverage",
+            "version": "1.2.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "6ef2bf3a1c47eca07ea95f0d8a902a6340390b34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6ef2bf3a1c47eca07ea95f0d8a902a6340390b34",
+                "reference": "6ef2bf3a1c47eca07ea95f0d8a902a6340390b34",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "phpunit/php-file-iterator": ">=1.3.0@stable",
+                "phpunit/php-text-template": ">=1.2.0@stable",
+                "phpunit/php-token-stream": ">=1.1.3@stable"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*@dev"
+            },
+            "suggest": {
+                "ext-dom": "*",
+                "ext-xdebug": ">=2.0.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "PHP/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
+            "homepage": "https://github.com/sebastianbergmann/php-code-coverage",
+            "keywords": [
+                "coverage",
+                "testing",
+                "xunit"
+            ],
+            "time": "2014-03-28 10:53:45"
+        },
+        {
+            "name": "phpunit/php-file-iterator",
+            "version": "1.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+                "reference": "acd690379117b042d1c8af1fafd61bde001bf6bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/acd690379117b042d1c8af1fafd61bde001bf6bb",
+                "reference": "acd690379117b042d1c8af1fafd61bde001bf6bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "File/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "FilterIterator implementation that filters files based on a list of suffixes.",
+            "homepage": "https://github.com/sebastianbergmann/php-file-iterator/",
+            "keywords": [
+                "filesystem",
+                "iterator"
+            ],
+            "time": "2013-10-10 15:34:57"
+        },
+        {
+            "name": "phpunit/php-text-template",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-text-template.git",
+                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
+                "reference": "206dfefc0ffe9cebf65c413e3d0e809c82fbf00a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Text/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Simple template engine.",
+            "homepage": "https://github.com/sebastianbergmann/php-text-template/",
+            "keywords": [
+                "template"
+            ],
+            "time": "2014-01-30 17:20:04"
+        },
+        {
+            "name": "phpunit/php-timer",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-timer.git",
+                "reference": "19689d4354b295ee3d8c54b4f42c3efb69cbc17c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/19689d4354b295ee3d8c54b4f42c3efb69cbc17c",
+                "reference": "19689d4354b295ee3d8c54b4f42c3efb69cbc17c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PHP/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Utility class for timing",
+            "homepage": "https://github.com/sebastianbergmann/php-timer/",
+            "keywords": [
+                "timer"
+            ],
+            "time": "2013-08-02 07:42:54"
+        },
+        {
+            "name": "phpunit/php-token-stream",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-token-stream.git",
+                "reference": "ad4e1e23ae01b483c16f600ff1bebec184588e32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/ad4e1e23ae01b483c16f600ff1bebec184588e32",
+                "reference": "ad4e1e23ae01b483c16f600ff1bebec184588e32",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "PHP/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Wrapper around PHP's tokenizer extension.",
+            "homepage": "https://github.com/sebastianbergmann/php-token-stream/",
+            "keywords": [
+                "tokenizer"
+            ],
+            "time": "2014-03-03 05:10:30"
+        },
+        {
+            "name": "phpunit/phpunit",
+            "version": "3.7.37",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
+                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-pcre": "*",
+                "ext-reflection": "*",
+                "ext-spl": "*",
+                "php": ">=5.3.3",
+                "phpunit/php-code-coverage": "~1.2",
+                "phpunit/php-file-iterator": "~1.3",
+                "phpunit/php-text-template": "~1.1",
+                "phpunit/php-timer": "~1.0",
+                "phpunit/phpunit-mock-objects": "~1.2",
+                "symfony/yaml": "~2.0"
+            },
+            "require-dev": {
+                "pear-pear.php.net/pear": "1.9.4"
+            },
+            "suggest": {
+                "phpunit/php-invoker": "~1.1"
+            },
+            "bin": [
+                "composer/bin/phpunit"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "PHPUnit/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "",
+                "../../symfony/yaml/"
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "The PHP Unit Testing framework.",
+            "homepage": "http://www.phpunit.de/",
+            "keywords": [
+                "phpunit",
+                "testing",
+                "xunit"
+            ],
+            "time": "2014-04-30 12:24:19"
+        },
+        {
+            "name": "phpunit/phpunit-mock-objects",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
+                "reference": "5794e3c5c5ba0fb037b11d8151add2a07fa82875"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/5794e3c5c5ba0fb037b11d8151add2a07fa82875",
+                "reference": "5794e3c5c5ba0fb037b11d8151add2a07fa82875",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "phpunit/php-text-template": ">=1.1.1@stable"
+            },
+            "suggest": {
+                "ext-soap": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "PHPUnit/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                ""
+            ],
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sb@sebastian-bergmann.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "Mock Object library for PHPUnit",
+            "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
+            "keywords": [
+                "mock",
+                "xunit"
+            ],
+            "time": "2013-01-13 10:24:48"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v2.5.2",
+            "target-dir": "Symfony/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml.git",
+                "reference": "f868ecdbcc0276b6158dfbf08b9e98ce07f014e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/f868ecdbcc0276b6158dfbf08b9e98ce07f014e1",
+                "reference": "f868ecdbcc0276b6158dfbf08b9e98ce07f014e1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-07-09 09:05:48"
+        }
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "koala-framework/owlcarousel": 20,
+        "koala-framework/koala-framework": 20
+    },
+    "prefer-stable": false,
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
