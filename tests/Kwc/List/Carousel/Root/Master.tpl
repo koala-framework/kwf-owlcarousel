@@ -3,7 +3,6 @@
     <head>
         <?=$this->debugData()?>
         <?=$this->assets(new Kwf_Assets_Package_TestPackage('Kwc_List_Carousel', 'TestFiles', 'Kwc_List_Carousel_Root'))?>
-        <?=$this->assets(new Kwf_Assets_Package_TestPackage('Kwc_List_Carousel', 'TestFilesDefer', 'Kwc_List_Carousel_Root'), true)?>
     </head>
     <body><?=$this->componentWithMaster($this->componentWithMaster)?></body>
 </html>
