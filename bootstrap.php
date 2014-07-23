@@ -15,7 +15,7 @@ if ($router instanceof Kwf_Controller_Router) {
                 array('module'     => 'tests',
                     'action'     =>'index')));
     $router->AddRoute('kwf_kwctest', new Zend_Controller_Router_Route_Regex(
-                'kwctest/([^/]+)/(.*)',
+                'kwf/kwctest/([^/]+)/(.*)',
                 array('module'     => 'tests_controller',
                       'controller' => 'render-component',
                       'action'     => 'index',
