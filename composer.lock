@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "7856253f08c6e49e3a49a2476253fe7498fdcad2"
+                "reference": "622a7d7f292c852925b2703ade78c87db6873bdd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/7856253f08c6e49e3a49a2476253fe7498fdcad2",
-                "reference": "7856253f08c6e49e3a49a2476253fe7498fdcad2",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/622a7d7f292c852925b2703ade78c87db6873bdd",
+                "reference": "622a7d7f292c852925b2703ade78c87db6873bdd",
                 "shasum": ""
             },
             "require": {

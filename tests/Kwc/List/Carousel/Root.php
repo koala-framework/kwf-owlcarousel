@@ -1,5 +1,5 @@
 <?php
-class Kwc_List_Carousel_Root extends Kwf_Component_NoCategoriesRoot
+class Kwc_List_Carousel_Root extends Kwc_Root_Component
 {
     public static function getSettings()
     {
@@ -7,6 +7,7 @@ class Kwc_List_Carousel_Root extends Kwf_Component_NoCategoriesRoot
         unset($ret['generators']['page']);
         unset($ret['generators']['title']);
         unset($ret['generators']['box']);
+        unset($ret['generators']['category']);
         $ret['generators']['page1'] = array(
             'class' => 'Kwf_Component_Generator_Page_Static',
             'component' => 'Kwc_List_Carousel_TestComponent',

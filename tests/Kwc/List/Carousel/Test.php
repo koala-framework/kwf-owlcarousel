@@ -1,10 +1,9 @@
 <?php
-class Kwc_List_Carousel_Test extends Kwc_TestAbstract
+class Kwc_List_Carousel_Test extends Kwf_Test_Kwc_TestCase
 {
     public function setUp()
     {
         parent::setUp('Kwc_List_Carousel_Root');
-        $this->_root->setFilename('');
     }
 
     public function testInitial()
