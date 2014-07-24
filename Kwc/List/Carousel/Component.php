@@ -7,6 +7,19 @@ class Kwc_List_Carousel_Component extends Kwc_Abstract_List_Component
         $ret['componentName'] = trlKwfStatic('List Carousel');
         $ret['generators']['child']['component'] = 'Kwc_List_Carousel_Image_Component';
 
+        $ret['carouselConfig'] = array(
+            'loop' => true,
+            'center' => true,
+            'items' => 3,
+            'nav' => true,
+            'dots' => false,
+            'margin' => 10,
+            'smartSpeed' => 1500,
+            'startRandom' => false,
+            'autoplay' => false,
+            'autoplayTimeout' => 7000
+        );
+
         $ret['assets']['dep'][] = 'KwfOnReadyJQuery';
         $ret['assetsDefer']['dep'][] = 'owlcarousel';
         return $ret;
@@ -15,11 +28,9 @@ class Kwc_List_Carousel_Component extends Kwc_Abstract_List_Component
     public function getTemplateVars()
     {
         $ret = parent::getTemplateVars();
-        if(count($ret['listItems']) == 2 || count($ret['listItems']) == 3) {
-            // Necessary as carousel slider needs at least 4 items to work
-            $ret['listItems'] = array_merge($ret['listItems'], $ret['listItems']);
-        }
         $ret['config'] = array(
+            'carouselConfig' => $this->_getSetting('carouselConfig'),
+            'countItems' => count($ret['listItems']),
             'contentWidth' => $this->getContentWidth()
         );
         return $ret;

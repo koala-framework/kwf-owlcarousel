@@ -10,8 +10,8 @@ class Kwc_List_Carousel_Image_TestModel extends Kwc_Abstract_Image_Model
             'primaryKey' => 'component_id',
             'data'=> array(
                 array('component_id'=>'root_page1-1', 'kwf_upload_id'=>1),
-                array('component_id'=>'root_page1-2', 'kwf_upload_id'=>1),
-                array('component_id'=>'root_page1-3', 'kwf_upload_id'=>1),
+                array('component_id'=>'root_page1-2', 'kwf_upload_id'=>2),
+                array('component_id'=>'root_page1-3', 'kwf_upload_id'=>3),
             )
         ));
         parent::__construct($config);
