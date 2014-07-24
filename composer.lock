@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "cc841ad568e56cd384aaafd693e9375fbae1f176"
+                "reference": "54b63efa2f3b48ab47a8f5326b49cbdaf478b0d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/cc841ad568e56cd384aaafd693e9375fbae1f176",
-                "reference": "cc841ad568e56cd384aaafd693e9375fbae1f176",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/54b63efa2f3b48ab47a8f5326b49cbdaf478b0d1",
+                "reference": "54b63efa2f3b48ab47a8f5326b49cbdaf478b0d1",
                 "shasum": ""
             },
             "require": {
@@ -110,7 +110,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-07-22 06:45:29"
+            "time": "2014-07-23 13:00:00"
         },
         {
             "name": "koala-framework/library-compass-mixins",
@@ -938,19 +938,13 @@
             "time": "2014-07-09 09:05:48"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
         "koala-framework/owlcarousel": 20,
         "koala-framework/koala-framework": 20
     },
     "prefer-stable": false,
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "platform": [],
+    "platform-dev": []
 }
