@@ -9,7 +9,6 @@ function createIframe() {
 QUnit.module( "List Carousel" );
 QUnit.asyncTest("Check Next and Prev", function( assert ) {
     expect( 8 );
-
     var iframeWindow = createIframe();
     $(iframeWindow).on('load', function() {
         var win = this;
@@ -25,24 +24,19 @@ QUnit.asyncTest("Check Next and Prev", function( assert ) {
         assert.ok( nextButton.length == 1, "Next Button found" );
         assert.ok( carousel.is('.owl-dots:visible') == false, "Dots are deactivated");
 
-        var nextButtonClicked = false;
-        nextButton.on('click', function() {
-            nextButtonClicked = true;
-        });
-        var prevButtonClicked = false;
-        prevButton.on('click', function() {
-            prevButtonClicked = true;
-        });
-
+        var translatedNum = 0;
         carousel.on('translated.owl.carousel', function(event) {
-            if (prevButtonClicked) {
-                assert.ok( prevButtonClicked == true, "Prev Button clicked" );
-                assert.equal( activeEl.get(0), carousel.find('.active.center').get(0), "New active el found" );
-                QUnit.start();
-            } else if (nextButtonClicked) {
+            translatedNum++;
+            if (translatedNum == 1) {
+                //first translation: next button was clicked, click prevButton
                 assert.ok( true, "Next Button clicked" );
                 assert.equal( activeEl.next().get(0), carousel.find('.active.center').get(0), "New active el found" );
                 prevButton.click();
+            } else if (translatedNum == 2) {
+                //second translation: prev button was clicked, start test
+                assert.ok( true, "Prev Button clicked" );
+                assert.equal( activeEl.get(0), carousel.find('.active.center').get(0), "New active el found" );
+                QUnit.start();
             }
         });
 
@@ -84,3 +78,4 @@ QUnit.asyncTest("Check Events", function( assert ) {
         carousel.find('.owl-next').click();
     });
 });
+
