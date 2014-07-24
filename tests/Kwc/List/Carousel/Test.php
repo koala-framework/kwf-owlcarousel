@@ -20,9 +20,8 @@ class Kwc_List_Carousel_Test extends PHPUnit_Framework_TestCase
                 }
             }
         }
-
         $cmd = "phantomjs vendor/koala-framework/library-qunit-phantomjs-runner/runner.js ";
-        $cmd .= "http://".Kwf_Config::getValue('server.domain').Kwf_Setup::getBaseUrl()."/test/kwc_list_carousel_q-unit";
+        $cmd .= "http://".Kwf_Config::getValue('server.domain').Kwf_Setup::getBaseUrl()."/test/kwc_list_carousel_q-unit 20";
         $cmd .= " 2>&1";
         $out = array();
         exec($cmd, $out, $retVar);
