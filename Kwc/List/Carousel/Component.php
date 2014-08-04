@@ -10,7 +10,7 @@ class Kwc_List_Carousel_Component extends Kwc_Abstract_List_Component
         $ret['carouselConfig'] = array(
             'loop' => true,
             'center' => true,
-            'items' => 3,
+            'items' => 2,
             'nav' => true,
             'dots' => false,
             'margin' => 10,
@@ -20,7 +20,6 @@ class Kwc_List_Carousel_Component extends Kwc_Abstract_List_Component
             'autoplayTimeout' => 7000
         );
 
-        $ret['assets']['dep'][] = 'KwfOnReadyJQuery';
         $ret['assetsDefer']['dep'][] = 'owlcarousel';
         return $ret;
     }
