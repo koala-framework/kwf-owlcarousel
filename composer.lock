@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "961e45ad5998bab219ae9931c281c1d0754ea047"
+                "reference": "c369f3b5410b2869610428b6fff9dd768a0985ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/961e45ad5998bab219ae9931c281c1d0754ea047",
-                "reference": "961e45ad5998bab219ae9931c281c1d0754ea047",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/c369f3b5410b2869610428b6fff9dd768a0985ee",
+                "reference": "c369f3b5410b2869610428b6fff9dd768a0985ee",
                 "shasum": ""
             },
             "require": {
@@ -79,7 +79,7 @@
                 "koala-framework/library-extjs2": "2.3.0.*",
                 "koala-framework/library-htmlawed": "1.1.14",
                 "koala-framework/library-jquery": "1.11.1",
-                "koala-framework/library-modernizr": "1.8.*",
+                "koala-framework/library-modernizr": "2.8.*",
                 "koala-framework/library-mustache-js": "0.8.2",
                 "koala-framework/library-silkicons": "1.3",
                 "koala-framework/library-susy": "1.0.9",
@@ -89,12 +89,15 @@
             },
             "require-dev": {
                 "amazonwebservices/aws-sdk-for-php": "1.5.14",
+                "koala-framework/library-qunit": "1.*",
+                "koala-framework/library-qunit-phantomjs-runner": "*",
                 "phpunit/phpunit": "3.7.*",
                 "phpunit/phpunit-selenium": "*"
             },
             "suggest": {
                 "amazonwebservices/aws-sdk-for-php": "Integration with Amazon Web Services",
                 "phpoffice/phpexcel": "Allows exporting as XLS in AutoGrid",
+                "reprovinci/solr-php-client": "Integration with Solr",
                 "tecnick.com/tcpdf": "Allows generating pdfs from components"
             },
             "type": "library",
@@ -110,7 +113,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-07-24 15:21:53"
+            "time": "2014-08-04 08:06:10"
         },
         {
             "name": "koala-framework/library-compass-mixins",
@@ -160,16 +163,16 @@
         },
         {
             "name": "koala-framework/library-extjs2",
-            "version": "v2.3.0-p0",
+            "version": "v2.3.0-p1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/library-extjs2.git",
-                "reference": "e1aa3a546a0bbaffdfb454d36c37c628b3ce5a6b"
+                "reference": "87b53294765c15ac7f3f2387fcaaa0685e3865b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/library-extjs2/zipball/e1aa3a546a0bbaffdfb454d36c37c628b3ce5a6b",
-                "reference": "e1aa3a546a0bbaffdfb454d36c37c628b3ce5a6b",
+                "url": "https://api.github.com/repos/koala-framework/library-extjs2/zipball/87b53294765c15ac7f3f2387fcaaa0685e3865b3",
+                "reference": "87b53294765c15ac7f3f2387fcaaa0685e3865b3",
                 "shasum": ""
             },
             "type": "library",
@@ -179,7 +182,7 @@
             ],
             "description": "ExtJS JavaScript Library",
             "homepage": "http://www.sencha.com/products/extjs/",
-            "time": "2014-06-25 11:14:26"
+            "time": "2014-07-30 07:08:50"
         },
         {
             "name": "koala-framework/library-htmlawed",
@@ -229,16 +232,16 @@
         },
         {
             "name": "koala-framework/library-modernizr",
-            "version": "v1.8.3-p0",
+            "version": "v2.8.3-p1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/library-modernizr.git",
-                "reference": "3a6a8181930087bcf4347b1309c716c412de6c9f"
+                "reference": "2fe2b9b436a47d7b646315c8ee68363b0159b2de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/library-modernizr/zipball/3a6a8181930087bcf4347b1309c716c412de6c9f",
-                "reference": "3a6a8181930087bcf4347b1309c716c412de6c9f",
+                "url": "https://api.github.com/repos/koala-framework/library-modernizr/zipball/2fe2b9b436a47d7b646315c8ee68363b0159b2de",
+                "reference": "2fe2b9b436a47d7b646315c8ee68363b0159b2de",
                 "shasum": ""
             },
             "type": "library",
@@ -248,7 +251,7 @@
             ],
             "description": "Modernizr JavaScript Library",
             "homepage": "http://modernizr.com/",
-            "time": "2014-07-24 15:14:05"
+            "time": "2014-08-04 08:06:46"
         },
         {
             "name": "koala-framework/library-mustache-js",
@@ -454,12 +457,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/owlcarousel.git",
-                "reference": "8b801bb818ae0b834b44b043b47a5ec510404d00"
+                "reference": "d89807d8dca251ea6a3c0b5001b5f5416d326ff1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/owlcarousel/zipball/8b801bb818ae0b834b44b043b47a5ec510404d00",
-                "reference": "8b801bb818ae0b834b44b043b47a5ec510404d00",
+                "url": "https://api.github.com/repos/koala-framework/owlcarousel/zipball/d89807d8dca251ea6a3c0b5001b5f5416d326ff1",
+                "reference": "d89807d8dca251ea6a3c0b5001b5f5416d326ff1",
                 "shasum": ""
             },
             "require": {
@@ -472,7 +475,7 @@
             ],
             "description": "Shim Repository for Owl Carousel 2 library",
             "homepage": "http://owlcarousel.owlgraphic.com/",
-            "time": "2014-07-24 15:21:05"
+            "time": "2014-08-04 06:50:53"
         }
     ],
     "packages-dev": [
