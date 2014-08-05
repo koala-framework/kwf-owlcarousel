@@ -1,9 +1,9 @@
 <?php
-class Kwc_List_Carousel_Image_TestModel extends Kwc_Abstract_Image_Model
+class Kwf_Owlcarousel_Kwc_Carousel_Image_TestModel extends Kwc_Abstract_Image_Model
 {
     public function __construct($config = array())
     {
-        $this->_referenceMap['Image']['refModelClass'] = 'Kwc_List_Carousel_Image_UploadsModel';
+        $this->_referenceMap['Image']['refModelClass'] = 'Kwf_Owlcarousel_Kwc_Carousel_Image_UploadsModel';
 
         $config['proxyModel'] = new Kwf_Model_FnF(array(
             'columns' => array(),

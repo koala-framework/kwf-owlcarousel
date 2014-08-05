@@ -1,5 +1,5 @@
 <?php
-class Kwc_List_Config extends Kwf_Config_Web
+class Kwf_Owlcarousel_Config extends Kwf_Config_Web
 {
     public function __construct($section, array $options = array())
     {

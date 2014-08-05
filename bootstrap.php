@@ -2,7 +2,7 @@
 chdir(dirname(__FILE__));
 define('VENDOR_PATH', 'vendor');
 require VENDOR_PATH.'/koala-framework/koala-framework/Kwf/Setup.php';
-Kwf_Setup::setUp('Kwc_List_Config');
+Kwf_Setup::setUp('Kwf_Owlcarousel_Config');
 
 $front = Kwf_Controller_Front_Component::getInstance();
 $front->addControllerDirectory('tests', 'tests');

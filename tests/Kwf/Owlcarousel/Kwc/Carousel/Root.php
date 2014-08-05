@@ -1,5 +1,5 @@
 <?php
-class Kwc_List_Carousel_Root extends Kwc_Root_Component
+class Kwf_Owlcarousel_Kwc_Carousel_Root extends Kwc_Root_Component
 {
     public static function getSettings()
     {
@@ -10,7 +10,7 @@ class Kwc_List_Carousel_Root extends Kwc_Root_Component
         unset($ret['generators']['category']);
         $ret['generators']['page1'] = array(
             'class' => 'Kwf_Component_Generator_Page_Static',
-            'component' => 'Kwc_List_Carousel_TestComponent',
+            'component' => 'Kwf_Owlcarousel_Kwc_Carousel_TestComponent',
         );
         return $ret;
     }

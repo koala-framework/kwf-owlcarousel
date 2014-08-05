@@ -1,11 +1,11 @@
 <?php
-class Kwc_List_Carousel_Component extends Kwc_Abstract_List_Component
+class Kwf_Owlcarousel_Kwc_Carousel_Component extends Kwc_Abstract_List_Component
 {
     public static function getSettings()
     {
         $ret = parent::getSettings();
         $ret['componentName'] = trlKwfStatic('List Carousel');
-        $ret['generators']['child']['component'] = 'Kwc_List_Carousel_Image_Component';
+        $ret['generators']['child']['component'] = 'Kwf_Owlcarousel_Kwc_Carousel_Image_Component';
 
         $ret['carouselConfig'] = array(
             'loop' => true,

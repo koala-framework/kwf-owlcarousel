@@ -1,5 +1,5 @@
 <?php
-class Kwc_List_Carousel_TestModel extends Kwc_Abstract_List_Model
+class Kwf_Owlcarousel_Kwc_Carousel_TestModel extends Kwc_Abstract_List_Model
 {
     public function __construct($config = array())
     {

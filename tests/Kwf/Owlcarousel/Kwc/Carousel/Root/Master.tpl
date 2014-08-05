@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <?=$this->debugData()?>
-        <?=$this->assets(new Kwf_Assets_Package_TestPackage('Kwc_List_Carousel', 'TestFiles', 'Kwc_List_Carousel_Root'))?>
+        <?=$this->assets(new Kwf_Assets_Package_TestPackage('Kwf_Owlcarousel_Kwc_Carousel', 'TestFiles', 'Kwf_Owlcarousel_Kwc_Carousel_Root'))?>
     </head>
     <body>
         <div id="#page">

@@ -1,4 +1,4 @@
-Kwf.onJElementReady('.kwcListCarousel', function(el, config) {
+Kwf.onJElementReady('.kwfOwlcarouselKwcCarousel', function(el, config) {
     if (config.carouselConfig.startRandom) {
         config.carouselConfig['startPosition'] = Math.floor(Math.random() * config.countItems);
         delete config.carouselConfig['startRandom'];

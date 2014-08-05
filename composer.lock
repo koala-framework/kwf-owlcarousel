@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4d35e1f4e2db7c2e0baa3bd2d5d32197",
+    "hash": "f0a7881f0e9ed801126074c40e6b0755",
     "packages": [
         {
             "name": "koala-framework/composer-extra-assets",
@@ -75,12 +75,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "26210b6d4457727a78d316377f36f9d02434e5ce"
+                "reference": "9b3e4b7e513ac936083e1d3ebc810f118307decb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/26210b6d4457727a78d316377f36f9d02434e5ce",
-                "reference": "26210b6d4457727a78d316377f36f9d02434e5ce",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/9b3e4b7e513ac936083e1d3ebc810f118307decb",
+                "reference": "9b3e4b7e513ac936083e1d3ebc810f118307decb",
                 "shasum": ""
             },
             "require": {
@@ -135,7 +135,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-08-05 07:17:55"
+            "time": "2014-08-05 11:15:38"
         },
         {
             "name": "koala-framework/kwf-modernizr",
