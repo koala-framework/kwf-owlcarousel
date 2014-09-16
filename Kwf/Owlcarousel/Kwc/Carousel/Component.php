@@ -15,6 +15,7 @@ class Kwf_Owlcarousel_Kwc_Carousel_Component extends Kwc_Abstract_List_Component
             'dots' => false,
             'margin' => 10,
             'smartSpeed' => 1500,
+            'touchSmartSpeed' => 600,
             'startRandom' => false,
             'autoplay' => false,
             'autoplayTimeout' => 7000
