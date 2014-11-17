@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f0a7881f0e9ed801126074c40e6b0755",
+    "hash": "ed3b7d496115512da3e1177db9787194",
     "packages": [
         {
             "name": "koala-framework/composer-extra-assets",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/composer-extra-assets.git",
-                "reference": "9d26a47aa52139169611d5036bca78fe2b1271f4"
+                "reference": "f662a64cabf23d66caee90d53862cc8a44397e29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/composer-extra-assets/zipball/9d26a47aa52139169611d5036bca78fe2b1271f4",
-                "reference": "9d26a47aa52139169611d5036bca78fe2b1271f4",
+                "url": "https://api.github.com/repos/koala-framework/composer-extra-assets/zipball/f662a64cabf23d66caee90d53862cc8a44397e29",
+                "reference": "f662a64cabf23d66caee90d53862cc8a44397e29",
                 "shasum": ""
             },
             "require": {
@@ -44,20 +44,20 @@
             ],
             "description": "Composer Plugin for installing Assets using native npm/bower",
             "homepage": "https://github.com/koala-framework/composer-extra-assets",
-            "time": "2014-08-05 06:21:36"
+            "time": "2014-09-14 20:26:30"
         },
         {
             "name": "koala-framework/extjs2",
-            "version": "v2.3.0-p2",
+            "version": "v2.3.0-p3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/extjs2.git",
-                "reference": "ec2d4b15b46b60436312437493df50355f892ac7"
+                "reference": "2055f6af9a9a238142e9e468a4510a271ee61be8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/extjs2/zipball/ec2d4b15b46b60436312437493df50355f892ac7",
-                "reference": "ec2d4b15b46b60436312437493df50355f892ac7",
+                "url": "https://api.github.com/repos/koala-framework/extjs2/zipball/2055f6af9a9a238142e9e468a4510a271ee61be8",
+                "reference": "2055f6af9a9a238142e9e468a4510a271ee61be8",
                 "shasum": ""
             },
             "type": "library",
@@ -67,31 +67,33 @@
             ],
             "description": "ExtJS JavaScript Library",
             "homepage": "http://www.sencha.com/products/extjs/",
-            "time": "2014-08-04 16:04:16"
+            "time": "2014-10-23 12:19:31"
         },
         {
             "name": "koala-framework/koala-framework",
-            "version": "dev-master",
+            "version": "3.8.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "9b3e4b7e513ac936083e1d3ebc810f118307decb"
+                "reference": "7a25660086d02e407827370b35ca9575562de266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/9b3e4b7e513ac936083e1d3ebc810f118307decb",
-                "reference": "9b3e4b7e513ac936083e1d3ebc810f118307decb",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/7a25660086d02e407827370b35ca9575562de266",
+                "reference": "7a25660086d02e407827370b35ca9575562de266",
                 "shasum": ""
             },
             "require": {
-                "koala-framework/composer-extra-assets": "dev-master",
+                "koala-framework/composer-extra-assets": "1.0.0",
                 "koala-framework/extjs2": "2.3.0.*",
-                "koala-framework/kwf-modernizr": "dev-master",
+                "koala-framework/kwf-modernizr": "3.8.x-dev",
                 "koala-framework/library-css3pie": "1.0.0",
                 "koala-framework/library-htmlawed": "1.1.14",
                 "koala-framework/library-silkicons": "1.3",
                 "koala-framework/library-swfupload": "2.2.0.1",
-                "koala-framework/zendframework1": "1.12.6"
+                "koala-framework/sourcemaps": "0.1.0",
+                "koala-framework/zendframework1": "1.12.6",
+                "twig/twig": "1.16.1"
             },
             "require-dev": {
                 "amazonwebservices/aws-sdk-for-php": "1.5.14",
@@ -110,13 +112,14 @@
                     "jquery": "1.11.1",
                     "jquery.transit": "0.9.9",
                     "jquery.easing": "1.3.0",
-                    "mustache.js": "0.8.2",
-                    "susy": "1.0.9",
-                    "compass-mixins": "1.0.0",
+                    "underscore": "1.7.0",
+                    "susy": "vivid-planet/susy#8161395e8ad5d75a0a15a0355feb9853ebaad369",
+                    "compass-mixins": "1.0.2",
                     "tinymce": "tinymce/tinymce#3.5.8"
                 },
                 "require-npm": {
-                    "uglify-js": "2.4.13"
+                    "uglify-js": "2.4.13",
+                    "node-sass": "vivid-planet/node-sass#8d6ae01363bcfb46393977417d2a78599db768c8"
                 },
                 "require-dev-bower": {
                     "qunit": "1.14.0",
@@ -135,27 +138,27 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-08-05 11:15:38"
+            "time": "2014-11-17 11:47:29"
         },
         {
             "name": "koala-framework/kwf-modernizr",
-            "version": "dev-master",
+            "version": "3.8.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/kwf-modernizr.git",
-                "reference": "25860566c09d6f4deb73b120b37a7546cd31df82"
+                "reference": "4936f95e118011878f7be4eda95a79f0fd40e871"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/kwf-modernizr/zipball/25860566c09d6f4deb73b120b37a7546cd31df82",
-                "reference": "25860566c09d6f4deb73b120b37a7546cd31df82",
+                "url": "https://api.github.com/repos/koala-framework/kwf-modernizr/zipball/4936f95e118011878f7be4eda95a79f0fd40e871",
+                "reference": "4936f95e118011878f7be4eda95a79f0fd40e871",
                 "shasum": ""
             },
             "require": {
-                "koala-framework/composer-extra-assets": "dev-master",
-                "koala-framework/koala-framework": "dev-master"
+                "koala-framework/composer-extra-assets": "1.0.0"
             },
             "require-dev": {
+                "koala-framework/koala-framework": "3.8.x-dev",
                 "phpunit/phpunit": "3.7.*"
             },
             "type": "library",
@@ -177,7 +180,7 @@
             ],
             "description": "Modernizr Integration for Koala Framework",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-08-05 07:36:05"
+            "time": "2014-10-22 08:07:18"
         },
         {
             "name": "koala-framework/library-css3pie",
@@ -309,6 +312,37 @@
             "time": "2014-06-02 08:22:41"
         },
         {
+            "name": "koala-framework/sourcemaps",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/sourcemaps.git",
+                "reference": "1fab7fc4790f19c737fef2d4a6bb79b371dc8770"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/sourcemaps/zipball/1fab7fc4790f19c737fef2d4a6bb79b371dc8770",
+                "reference": "1fab7fc4790f19c737fef2d4a6bb79b371dc8770",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Kwf_SourceMaps_": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "Sourcemaps Utities",
+            "homepage": "http://www.koala-framework.org/",
+            "time": "2014-11-05 15:31:37"
+        },
+        {
             "name": "koala-framework/zendframework1",
             "version": "v1.12.6",
             "source": {
@@ -350,28 +384,85 @@
                 "framework"
             ],
             "time": "2014-08-04 15:45:29"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.16.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/7c4c01dcf578523cfcddf383641a4f12790270ec",
+                "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.16-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "https://github.com/fabpot/Twig/graphs/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2014-10-10 14:09:53"
         }
     ],
     "packages-dev": [
         {
             "name": "phpunit/php-code-coverage",
-            "version": "1.2.17",
+            "version": "1.2.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "6ef2bf3a1c47eca07ea95f0d8a902a6340390b34"
+                "reference": "fe2466802556d3fe4e4d1d58ffd3ccfd0a19be0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6ef2bf3a1c47eca07ea95f0d8a902a6340390b34",
-                "reference": "6ef2bf3a1c47eca07ea95f0d8a902a6340390b34",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/fe2466802556d3fe4e4d1d58ffd3ccfd0a19be0b",
+                "reference": "fe2466802556d3fe4e4d1d58ffd3ccfd0a19be0b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
                 "phpunit/php-file-iterator": ">=1.3.0@stable",
                 "phpunit/php-text-template": ">=1.2.0@stable",
-                "phpunit/php-token-stream": ">=1.1.3@stable"
+                "phpunit/php-token-stream": ">=1.1.3,<1.3.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*@dev"
@@ -412,7 +503,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-03-28 10:53:45"
+            "time": "2014-09-02 10:13:14"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -599,16 +690,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "3.7.37",
+            "version": "3.7.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc"
+                "reference": "38709dc22d519a3d1be46849868aa2ddf822bcf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
-                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/38709dc22d519a3d1be46849868aa2ddf822bcf6",
+                "reference": "38709dc22d519a3d1be46849868aa2ddf822bcf6",
                 "shasum": ""
             },
             "require": {
@@ -668,7 +759,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-04-30 12:24:19"
+            "time": "2014-10-17 09:04:17"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -721,17 +812,17 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.5.2",
+            "version": "v2.5.6",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "f868ecdbcc0276b6158dfbf08b9e98ce07f014e1"
+                "reference": "2d9f527449cabfa8543dd7fa3a466d6ae83d6726"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/f868ecdbcc0276b6158dfbf08b9e98ce07f014e1",
-                "reference": "f868ecdbcc0276b6158dfbf08b9e98ce07f014e1",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/2d9f527449cabfa8543dd7fa3a466d6ae83d6726",
+                "reference": "2d9f527449cabfa8543dd7fa3a466d6ae83d6726",
                 "shasum": ""
             },
             "require": {
@@ -754,19 +845,17 @@
             ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
-                },
-                {
                     "name": "Symfony Community",
                     "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2014-07-09 09:05:48"
+            "time": "2014-10-01 05:50:18"
         }
     ],
     "aliases": [],
