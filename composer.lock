@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ed3b7d496115512da3e1177db9787194",
+    "hash": "7b74a82b7b350a0ee3db5901a9d81a3c",
     "packages": [
         {
             "name": "koala-framework/composer-extra-assets",
@@ -75,12 +75,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "7a25660086d02e407827370b35ca9575562de266"
+                "reference": "69c5a26ab3a55148f05b50286ec0dff6df2607f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/7a25660086d02e407827370b35ca9575562de266",
-                "reference": "7a25660086d02e407827370b35ca9575562de266",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/69c5a26ab3a55148f05b50286ec0dff6df2607f7",
+                "reference": "69c5a26ab3a55148f05b50286ec0dff6df2607f7",
                 "shasum": ""
             },
             "require": {
@@ -91,7 +91,7 @@
                 "koala-framework/library-htmlawed": "1.1.14",
                 "koala-framework/library-silkicons": "1.3",
                 "koala-framework/library-swfupload": "2.2.0.1",
-                "koala-framework/sourcemaps": "0.1.0",
+                "koala-framework/sourcemaps": "0.1.x-dev",
                 "koala-framework/zendframework1": "1.12.6",
                 "twig/twig": "1.16.1"
             },
@@ -138,7 +138,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-11-17 11:47:29"
+            "time": "2014-11-19 12:24:14"
         },
         {
             "name": "koala-framework/kwf-modernizr",
@@ -313,16 +313,16 @@
         },
         {
             "name": "koala-framework/sourcemaps",
-            "version": "v0.1.0",
+            "version": "0.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/sourcemaps.git",
-                "reference": "1fab7fc4790f19c737fef2d4a6bb79b371dc8770"
+                "reference": "e3648f20de26a3712f74950dfb6529aec8c969e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/sourcemaps/zipball/1fab7fc4790f19c737fef2d4a6bb79b371dc8770",
-                "reference": "1fab7fc4790f19c737fef2d4a6bb79b371dc8770",
+                "url": "https://api.github.com/repos/koala-framework/sourcemaps/zipball/e3648f20de26a3712f74950dfb6529aec8c969e3",
+                "reference": "e3648f20de26a3712f74950dfb6529aec8c969e3",
                 "shasum": ""
             },
             "require-dev": {
@@ -340,7 +340,7 @@
             ],
             "description": "Sourcemaps Utities",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2014-11-05 15:31:37"
+            "time": "2014-11-17 16:41:34"
         },
         {
             "name": "koala-framework/zendframework1",

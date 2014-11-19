@@ -16,22 +16,16 @@ QUnit.asyncTest("Check Next and Prev", function( assert ) {
 
         var carousel = $('.kwfOwlcarouselKwcCarousel');
         assert.ok( carousel.length == 1, "Carousel found" );
-        var prevButton = carousel.find('.owl-prev');
-        var nextButton = carousel.find('.owl-next');
-        var activeEl = carousel.find('.active.center');
-
-        assert.ok( prevButton.length == 1, "Prev Button found" );
-        assert.ok( nextButton.length == 1, "Next Button found" );
-        assert.ok( carousel.is('.owl-dots:visible') == false, "Dots are deactivated");
 
         var translatedNum = 0;
+        var activeEl;
         carousel.on('translated.owl.carousel', function(event) {
             translatedNum++;
             if (translatedNum == 1) {
                 //first translation: next button was clicked, click prevButton
                 assert.ok( true, "Next Button clicked" );
                 assert.equal( activeEl.next().get(0), carousel.find('.active.center').get(0), "New active el found" );
-                prevButton.click();
+                carousel.find('.owl-prev').click();
             } else if (translatedNum == 2) {
                 //second translation: prev button was clicked, start test
                 assert.ok( true, "Prev Button clicked" );
@@ -39,8 +33,13 @@ QUnit.asyncTest("Check Next and Prev", function( assert ) {
                 QUnit.start();
             }
         });
-
-        nextButton.click();
+        setTimeout(function() {
+            activeEl = carousel.find('.active.center');
+            assert.ok( carousel.find('.owl-prev').length == 1, "Prev Button found" );
+            assert.ok( carousel.find('.owl-next').length == 1, "Next Button found" );
+            assert.ok( carousel.is('.owl-dots:visible') == false, "Dots are deactivated");
+            carousel.find('.owl-next').click();
+        }, 1000);
     });
 });
 
