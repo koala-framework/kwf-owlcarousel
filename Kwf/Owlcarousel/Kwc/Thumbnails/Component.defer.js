@@ -1,4 +1,7 @@
-Kwf.onJElementReady('.cssClass', function(el, config) {
+var $ = require('jQuery');
+var onReady = require('kwf/on-ready');
+
+onReady.onRender('.kwcClass', function(el, config) {
     el.height(''); //remove maximum height as calculated in Component.js
     var sync1 = $(".large.owl-carousel"),
         sync2 = $(".thumbnail.owl-carousel"),
@@ -27,5 +30,5 @@ Kwf.onJElementReady('.cssClass', function(el, config) {
             }
         });
 
-    Kwf.callOnContentReady(el, { action: 'render' });
+    onReady.callOnContentReady(el, { action: 'render' });
 });

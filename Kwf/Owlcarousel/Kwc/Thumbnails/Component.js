@@ -1,4 +1,7 @@
-Kwf.onJElementReady('.cssClass', function(el, config) {
+var $ = require('jQuery');
+var onReady = require('kwf/on-ready');
+
+onReady.onRender('.kwcClass', function(el, config) {
     var listWrapper = el.find('.large.owl-carousel, .thumbnail.owl-carousel');
     $.each(listWrapper, function(index, obj) {
         $(obj).css('display', 'block'); //show to be able to measure (.owl-carousel sets display: none)

@@ -1,4 +1,7 @@
-Kwf.onJElementReady('.kwfOwlcarouselKwcCarousel', function(el, config) {
+var $ = require('jQuery');
+var onReady = require('kwf/on-ready');
+
+onReady.onRender('.kwcClass', function(el, config) {
     var listWrapper = el.find('.listWrapper');
     listWrapper.css('display', 'block'); //show to be able to measure (.owl-carousel sets display: none)
     var maxHeight = 0;

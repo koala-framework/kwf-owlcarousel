@@ -1,4 +1,7 @@
-Kwf.onJElementReady('.kwfOwlcarouselKwcCarousel', function(el, config) {
+var $ = require('jQuery');
+var onReady = require('kwf/on-ready');
+
+onReady.onRender('.kwcClass', function(el, config) {
     el.height(''); //remove maximum height as calculated in Component.js
     if (Modernizr && Modernizr.touch) {
         config.carouselConfig.smartSpeed = config.carouselConfig.touchSmartSpeed;
@@ -8,5 +11,6 @@ Kwf.onJElementReady('.kwfOwlcarouselKwcCarousel', function(el, config) {
         delete config.carouselConfig['startRandom'];
     }
     el.find('.listWrapper').owlCarousel(config.carouselConfig);
-    Kwf.callOnContentReady(el, { action: 'render' });
+
+    onReady.callOnContentReady(el, { action: 'render' });
 });
