@@ -18,7 +18,8 @@ class Kwf_Owlcarousel_Kwc_Carousel_Component extends Kwc_Abstract_List_Component
             'touchSmartSpeed' => 600,
             'startRandom' => false,
             'autoplay' => false,
-            'autoplayTimeout' => 7000
+            'autoplayTimeout' => 7000,
+            'responsiveRefreshRate' => 90
         );
 
         $ret['assetsDefer']['dep'][] = 'owlcarousel';
