@@ -1,6 +1,6 @@
 <div class="{{ cssClass }}">
     <input type="hidden" value="{{ config|json_encode() }}"/>
-    {% block slides %}
+    {% block largeSlides %}
     <div class="large owl-carousel">
         {% for item in listItems %}
             {% block large %}
@@ -8,8 +8,8 @@
             {% endblock %}
         {% endfor %}
     </div>
-    {% block betweenSlides %}
     {% endblock %}
+    {% block thumbnailSlides %}
     <div class="thumbnail owl-carousel">
         {% for item in listItems %}
             {% block thumbnail %}

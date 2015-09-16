@@ -1,7 +1,7 @@
 Kwf.onJElementReady('.cssClass', function(el, config) {
     el.height(''); //remove maximum height as calculated in Component.js
-    var sync1 = $(".large.owl-carousel"),
-        sync2 = $(".thumbnail.owl-carousel"),
+    var sync1 = el.find(".large.owl-carousel"),
+        sync2 = el.find(".thumbnail.owl-carousel"),
         isChanging = false,
         duration = 300;
 
