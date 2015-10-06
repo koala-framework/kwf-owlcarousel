@@ -5,6 +5,7 @@ class Kwf_Owlcarousel_Kwc_Thumbnails_Component extends Kwc_Abstract_List_Compone
     {
         $ret = parent::getSettings();
         $ret['componentName'] = trlKwfStatic('List Carousel with thumbnails');
+        $ret['componentCategory'] = 'media';
         $ret['generators']['child']['component'] = 'Kwf_Owlcarousel_Kwc_Thumbnails_Child_Component';
 
         $ret['carouselConfig'] = array(
