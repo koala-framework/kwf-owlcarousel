@@ -4,8 +4,63 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a12253ef9840ac89c4d1a97c221e502a",
+    "hash": "46c2a16c35626900093ccef04d682749",
+    "content-hash": "c9afee73310a551392a5801caea2d8c1",
     "packages": [
+        {
+            "name": "jbroadway/urlify",
+            "version": "1.0.5-stable",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jbroadway/urlify.git",
+                "reference": "b5f13d860d9da34e4adece6a93e46e0292ab6aa7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jbroadway/urlify/zipball/b5f13d860d9da34e4adece6a93e46e0292ab6aa7",
+                "reference": "b5f13d860d9da34e4adece6a93e46e0292ab6aa7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "URLify": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Johnny Broadway",
+                    "email": "johnny@johnnybroadway.com",
+                    "homepage": "http://www.johnnybroadway.com/"
+                }
+            ],
+            "description": "PHP port of URLify.js from the Django project. Transliterates non-ascii characters for use in URLs.",
+            "homepage": "https://github.com/jbroadway/urlify",
+            "keywords": [
+                "encode",
+                "iconv",
+                "link",
+                "slug",
+                "translit",
+                "transliterate",
+                "transliteration",
+                "url",
+                "urlify"
+            ],
+            "time": "2015-05-29 13:53:37"
+        },
         {
             "name": "koala-framework/composer-extra-assets",
             "version": "v1.1.0",
@@ -51,16 +106,16 @@
         },
         {
             "name": "koala-framework/extjs2",
-            "version": "v2.3.0-p6",
+            "version": "v2.3.0-p9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/extjs2.git",
-                "reference": "c9f75d7fd5b504be2f3d87c38ed7e3bfeb1f17f6"
+                "reference": "4e87c076d3acdf84da13771b9b447981b8a9ddc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/extjs2/zipball/c9f75d7fd5b504be2f3d87c38ed7e3bfeb1f17f6",
-                "reference": "c9f75d7fd5b504be2f3d87c38ed7e3bfeb1f17f6",
+                "url": "https://api.github.com/repos/koala-framework/extjs2/zipball/4e87c076d3acdf84da13771b9b447981b8a9ddc9",
+                "reference": "4e87c076d3acdf84da13771b9b447981b8a9ddc9",
                 "shasum": ""
             },
             "type": "library",
@@ -70,7 +125,7 @@
             ],
             "description": "ExtJS JavaScript Library",
             "homepage": "http://www.sencha.com/products/extjs/",
-            "time": "2015-05-19 09:23:29"
+            "time": "2015-08-31 12:09:36"
         },
         {
             "name": "koala-framework/file-watcher",
@@ -113,22 +168,24 @@
         },
         {
             "name": "koala-framework/koala-framework",
-            "version": "dev-master",
+            "version": "4.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "cca0926dbc72eda089a31a782dc5a49337889e5a"
+                "reference": "047c0c6116f519fdc11baca0a3dd7f250d1d3ad6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/cca0926dbc72eda089a31a782dc5a49337889e5a",
-                "reference": "cca0926dbc72eda089a31a782dc5a49337889e5a",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/047c0c6116f519fdc11baca0a3dd7f250d1d3ad6",
+                "reference": "047c0c6116f519fdc11baca0a3dd7f250d1d3ad6",
                 "shasum": ""
             },
             "require": {
+                "jbroadway/urlify": "1.0.5-stable",
                 "koala-framework/composer-extra-assets": "1.1.*",
                 "koala-framework/extjs2": "2.3.0.*",
                 "koala-framework/file-watcher": "*",
+                "koala-framework/kwf-trl-jsparser": "dev-master",
                 "koala-framework/library-css3pie": "1.0.0",
                 "koala-framework/library-htmlawed": "1.1.14",
                 "koala-framework/library-silkicons": "1.3",
@@ -155,10 +212,8 @@
             "extra": {
                 "require-bower": {
                     "jquery": "~1.11 || 2.*",
-                    "jquery.transit": "0.9.9",
-                    "jquery.easing": "1.3.0",
                     "underscore": "1.7.0",
-                    "compass-mixins": "1.0.2",
+                    "compass-mixins": "0.12.7",
                     "tinymce": "tinymce/tinymce#4.1.9",
                     "matches-selector": "1.0.3"
                 },
@@ -170,9 +225,7 @@
                     "browser-pack": "5.0.1",
                     "module-deps": "3.8.0",
                     "JSONStream": "1.0.4",
-                    "grunt": "0.4.*",
-                    "grunt-cli": "0.1.*",
-                    "grunt-modernizr": "0.6.0"
+                    "modernizr": "git://github.com/Modernizr/Modernizr.git#eb211bbcb"
                 },
                 "require-dev-bower": {
                     "qunit": "1.18.0",
@@ -188,7 +241,7 @@
                     ]
                 },
                 "kwf-lingohub": {
-                    "account": "koala-framework",
+                    "account": "vivid-planet",
                     "project": "koala-framework"
                 }
             },
@@ -204,7 +257,43 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2015-07-29 13:13:48"
+            "time": "2015-10-14 17:13:53"
+        },
+        {
+            "name": "koala-framework/kwf-trl-jsparser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koala-framework/kwf-trl-jsparser.git",
+                "reference": "699f2fd9ca4b9c49a009c13cb84b4c360fe06fbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koala-framework/kwf-trl-jsparser/zipball/699f2fd9ca4b9c49a009c13cb84b4c360fe06fbc",
+                "reference": "699f2fd9ca4b9c49a009c13cb84b4c360fe06fbc",
+                "shasum": ""
+            },
+            "require": {
+                "koala-framework/composer-extra-assets": "1.1.*",
+                "symfony/process": "~2.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "require-npm": {
+                    "esprima": "1.2.2"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Kwf_TrlJsParser_": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Parses js code for trl-calls and returns list",
+            "time": "2015-10-01 14:43:23"
         },
         {
             "name": "koala-framework/library-css3pie",
@@ -341,12 +430,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/sourcemaps.git",
-                "reference": "3a66106bd1913d6000c3cd528a50b7163ec512a8"
+                "reference": "d49b2dc0d92da9ca28657c0dd5def8ef3a5e7879"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/sourcemaps/zipball/3a66106bd1913d6000c3cd528a50b7163ec512a8",
-                "reference": "3a66106bd1913d6000c3cd528a50b7163ec512a8",
+                "url": "https://api.github.com/repos/koala-framework/sourcemaps/zipball/d49b2dc0d92da9ca28657c0dd5def8ef3a5e7879",
+                "reference": "d49b2dc0d92da9ca28657c0dd5def8ef3a5e7879",
                 "shasum": ""
             },
             "require-dev": {
@@ -369,7 +458,7 @@
             ],
             "description": "Sourcemaps Utities",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2015-06-09 14:42:39"
+            "time": "2015-08-10 16:14:47"
         },
         {
             "name": "koala-framework/zendframework1",
@@ -420,16 +509,16 @@
         },
         {
             "name": "mouf/nodejs-installer",
-            "version": "v1.0.6",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/nodejs-installer.git",
-                "reference": "473ddea36b9e5428e776cd9b08ad074b493fb8ca"
+                "reference": "dbc3b2990b0c788dc5debb3deb14481da65c165d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/nodejs-installer/zipball/473ddea36b9e5428e776cd9b08ad074b493fb8ca",
-                "reference": "473ddea36b9e5428e776cd9b08ad074b493fb8ca",
+                "url": "https://api.github.com/repos/thecodingmachine/nodejs-installer/zipball/dbc3b2990b0c788dc5debb3deb14481da65c165d",
+                "reference": "dbc3b2990b0c788dc5debb3deb14481da65c165d",
                 "shasum": ""
             },
             "require": {
@@ -472,7 +561,7 @@
                 "nodejs",
                 "npm"
             ],
-            "time": "2015-06-15 14:48:26"
+            "time": "2015-09-16 08:02:27"
         },
         {
             "name": "psr/log",
@@ -562,16 +651,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.7.3",
+            "version": "v2.7.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Console.git",
-                "reference": "d6cf02fe73634c96677e428f840704bfbcaec29e"
+                "url": "https://github.com/symfony/console.git",
+                "reference": "06cb17c013a82f94a3d840682b49425cd00a2161"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/d6cf02fe73634c96677e428f840704bfbcaec29e",
-                "reference": "d6cf02fe73634c96677e428f840704bfbcaec29e",
+                "url": "https://api.github.com/repos/symfony/console/zipball/06cb17c013a82f94a3d840682b49425cd00a2161",
+                "reference": "06cb17c013a82f94a3d840682b49425cd00a2161",
                 "shasum": ""
             },
             "require": {
@@ -615,20 +704,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-28 15:18:12"
+            "time": "2015-09-25 08:32:23"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.7.3",
+            "version": "v2.7.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "9310b5f9a87ec2ea75d20fec0b0017c77c66dac3"
+                "url": "https://github.com/symfony/event-dispatcher.git",
+                "reference": "ae4dcc2a8d3de98bd794167a3ccda1311597c5d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/9310b5f9a87ec2ea75d20fec0b0017c77c66dac3",
-                "reference": "9310b5f9a87ec2ea75d20fec0b0017c77c66dac3",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/ae4dcc2a8d3de98bd794167a3ccda1311597c5d9",
+                "reference": "ae4dcc2a8d3de98bd794167a3ccda1311597c5d9",
                 "shasum": ""
             },
             "require": {
@@ -673,20 +762,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2015-06-18 19:21:56"
+            "time": "2015-09-22 13:49:29"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.7.3",
+            "version": "v2.7.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Finder.git",
-                "reference": "ae0f363277485094edc04c9f3cbe595b183b78e4"
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "8262ab605973afbb3ef74b945daabf086f58366f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/ae0f363277485094edc04c9f3cbe595b183b78e4",
-                "reference": "ae0f363277485094edc04c9f3cbe595b183b78e4",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/8262ab605973afbb3ef74b945daabf086f58366f",
+                "reference": "8262ab605973afbb3ef74b945daabf086f58366f",
                 "shasum": ""
             },
             "require": {
@@ -722,20 +811,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-09 16:07:40"
+            "time": "2015-09-19 19:59:23"
         },
         {
             "name": "symfony/process",
-            "version": "v2.7.3",
+            "version": "v2.7.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Process.git",
-                "reference": "48aeb0e48600321c272955132d7606ab0a49adb3"
+                "url": "https://github.com/symfony/process.git",
+                "reference": "b27c8e317922cd3cdd3600850273cf6b82b2e8e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/48aeb0e48600321c272955132d7606ab0a49adb3",
-                "reference": "48aeb0e48600321c272955132d7606ab0a49adb3",
+                "url": "https://api.github.com/repos/symfony/process/zipball/b27c8e317922cd3cdd3600850273cf6b82b2e8e9",
+                "reference": "b27c8e317922cd3cdd3600850273cf6b82b2e8e9",
                 "shasum": ""
             },
             "require": {
@@ -771,7 +860,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-01 11:25:50"
+            "time": "2015-09-19 19:59:23"
         },
         {
             "name": "twig/twig",
@@ -1196,16 +1285,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.7.3",
+            "version": "v2.7.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Yaml.git",
-                "reference": "71340e996171474a53f3d29111d046be4ad8a0ff"
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "31cb2ad0155c95b88ee55fe12bc7ff92232c1770"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/71340e996171474a53f3d29111d046be4ad8a0ff",
-                "reference": "71340e996171474a53f3d29111d046be4ad8a0ff",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/31cb2ad0155c95b88ee55fe12bc7ff92232c1770",
+                "reference": "31cb2ad0155c95b88ee55fe12bc7ff92232c1770",
                 "shasum": ""
             },
             "require": {
@@ -1241,14 +1330,12 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-28 14:07:07"
+            "time": "2015-09-14 14:14:09"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "koala-framework/koala-framework": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
