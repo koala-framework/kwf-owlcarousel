@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "46c2a16c35626900093ccef04d682749",
+    "hash": "714746b6b5e448514747920c63c699ac",
     "content-hash": "c9afee73310a551392a5801caea2d8c1",
     "packages": [
         {
@@ -172,12 +172,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/koala-framework.git",
-                "reference": "047c0c6116f519fdc11baca0a3dd7f250d1d3ad6"
+                "reference": "bcb9da8eb1d391197d917139917cb283280a2c2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/047c0c6116f519fdc11baca0a3dd7f250d1d3ad6",
-                "reference": "047c0c6116f519fdc11baca0a3dd7f250d1d3ad6",
+                "url": "https://api.github.com/repos/koala-framework/koala-framework/zipball/bcb9da8eb1d391197d917139917cb283280a2c2d",
+                "reference": "bcb9da8eb1d391197d917139917cb283280a2c2d",
                 "shasum": ""
             },
             "require": {
@@ -219,7 +219,7 @@
                 },
                 "require-npm": {
                     "uglify-js": "2.4.13",
-                    "node-sass": "3.2.0",
+                    "node-sass": "3.4.1",
                     "amdlc": "0.1.5",
                     "esprima": "1.2.2",
                     "browser-pack": "5.0.1",
@@ -257,7 +257,7 @@
             ],
             "description": "Framework and CMS based on Zend Framework and ExtJS",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2015-10-14 17:13:53"
+            "time": "2015-11-18 15:43:56"
         },
         {
             "name": "koala-framework/kwf-trl-jsparser",
@@ -265,16 +265,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/kwf-trl-jsparser.git",
-                "reference": "699f2fd9ca4b9c49a009c13cb84b4c360fe06fbc"
+                "reference": "2041fc82d42f106ca6a95e3836357525e6f8108c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/kwf-trl-jsparser/zipball/699f2fd9ca4b9c49a009c13cb84b4c360fe06fbc",
-                "reference": "699f2fd9ca4b9c49a009c13cb84b4c360fe06fbc",
+                "url": "https://api.github.com/repos/koala-framework/kwf-trl-jsparser/zipball/2041fc82d42f106ca6a95e3836357525e6f8108c",
+                "reference": "2041fc82d42f106ca6a95e3836357525e6f8108c",
                 "shasum": ""
             },
             "require": {
-                "koala-framework/composer-extra-assets": "1.1.*",
+                "koala-framework/composer-extra-assets": "~1.1",
                 "symfony/process": "~2.5"
             },
             "require-dev": {
@@ -293,7 +293,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Parses js code for trl-calls and returns list",
-            "time": "2015-10-01 14:43:23"
+            "time": "2015-11-06 08:15:09"
         },
         {
             "name": "koala-framework/library-css3pie",
@@ -430,12 +430,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/koala-framework/sourcemaps.git",
-                "reference": "d49b2dc0d92da9ca28657c0dd5def8ef3a5e7879"
+                "reference": "7358c944fc836d2a5e8a6fb059b44a87c465aaf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/koala-framework/sourcemaps/zipball/d49b2dc0d92da9ca28657c0dd5def8ef3a5e7879",
-                "reference": "d49b2dc0d92da9ca28657c0dd5def8ef3a5e7879",
+                "url": "https://api.github.com/repos/koala-framework/sourcemaps/zipball/7358c944fc836d2a5e8a6fb059b44a87c465aaf1",
+                "reference": "7358c944fc836d2a5e8a6fb059b44a87c465aaf1",
                 "shasum": ""
             },
             "require-dev": {
@@ -458,7 +458,7 @@
             ],
             "description": "Sourcemaps Utities",
             "homepage": "http://www.koala-framework.org/",
-            "time": "2015-08-10 16:14:47"
+            "time": "2015-11-24 13:13:48"
         },
         {
             "name": "koala-framework/zendframework1",
@@ -509,16 +509,16 @@
         },
         {
             "name": "mouf/nodejs-installer",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/nodejs-installer.git",
-                "reference": "dbc3b2990b0c788dc5debb3deb14481da65c165d"
+                "reference": "56cd5a9d32f14a555af4c7569557a7e56ab000c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/nodejs-installer/zipball/dbc3b2990b0c788dc5debb3deb14481da65c165d",
-                "reference": "dbc3b2990b0c788dc5debb3deb14481da65c165d",
+                "url": "https://api.github.com/repos/thecodingmachine/nodejs-installer/zipball/56cd5a9d32f14a555af4c7569557a7e56ab000c0",
+                "reference": "56cd5a9d32f14a555af4c7569557a7e56ab000c0",
                 "shasum": ""
             },
             "require": {
@@ -561,7 +561,7 @@
                 "nodejs",
                 "npm"
             ],
-            "time": "2015-09-16 08:02:27"
+            "time": "2015-11-18 14:34:13"
         },
         {
             "name": "psr/log",
@@ -651,16 +651,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.7.5",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "06cb17c013a82f94a3d840682b49425cd00a2161"
+                "reference": "16bb1cb86df43c90931df65f529e7ebd79636750"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/06cb17c013a82f94a3d840682b49425cd00a2161",
-                "reference": "06cb17c013a82f94a3d840682b49425cd00a2161",
+                "url": "https://api.github.com/repos/symfony/console/zipball/16bb1cb86df43c90931df65f529e7ebd79636750",
+                "reference": "16bb1cb86df43c90931df65f529e7ebd79636750",
                 "shasum": ""
             },
             "require": {
@@ -669,7 +669,6 @@
             "require-dev": {
                 "psr/log": "~1.0",
                 "symfony/event-dispatcher": "~2.1",
-                "symfony/phpunit-bridge": "~2.7",
                 "symfony/process": "~2.1"
             },
             "suggest": {
@@ -686,7 +685,10 @@
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Console\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -704,20 +706,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2015-09-25 08:32:23"
+            "time": "2015-11-18 09:54:26"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.7.5",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "ae4dcc2a8d3de98bd794167a3ccda1311597c5d9"
+                "reference": "7e2f9c31645680026c2372edf66f863fc7757af5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/ae4dcc2a8d3de98bd794167a3ccda1311597c5d9",
-                "reference": "ae4dcc2a8d3de98bd794167a3ccda1311597c5d9",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/7e2f9c31645680026c2372edf66f863fc7757af5",
+                "reference": "7e2f9c31645680026c2372edf66f863fc7757af5",
                 "shasum": ""
             },
             "require": {
@@ -728,7 +730,6 @@
                 "symfony/config": "~2.0,>=2.0.5",
                 "symfony/dependency-injection": "~2.6",
                 "symfony/expression-language": "~2.6",
-                "symfony/phpunit-bridge": "~2.7",
                 "symfony/stopwatch": "~2.3"
             },
             "suggest": {
@@ -744,7 +745,10 @@
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\EventDispatcher\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -762,27 +766,24 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2015-09-22 13:49:29"
+            "time": "2015-10-30 20:10:21"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.7.5",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "8262ab605973afbb3ef74b945daabf086f58366f"
+                "reference": "a06a0c0ff7db3736a50d530c908cca547bf13da9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/8262ab605973afbb3ef74b945daabf086f58366f",
-                "reference": "8262ab605973afbb3ef74b945daabf086f58366f",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/a06a0c0ff7db3736a50d530c908cca547bf13da9",
+                "reference": "a06a0c0ff7db3736a50d530c908cca547bf13da9",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "~2.7"
             },
             "type": "library",
             "extra": {
@@ -793,7 +794,10 @@
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Finder\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -811,27 +815,24 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2015-09-19 19:59:23"
+            "time": "2015-10-30 20:10:21"
         },
         {
             "name": "symfony/process",
-            "version": "v2.7.5",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "b27c8e317922cd3cdd3600850273cf6b82b2e8e9"
+                "reference": "f6290983c8725d0afa29bdc3e5295879de3e58f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/b27c8e317922cd3cdd3600850273cf6b82b2e8e9",
-                "reference": "b27c8e317922cd3cdd3600850273cf6b82b2e8e9",
+                "url": "https://api.github.com/repos/symfony/process/zipball/f6290983c8725d0afa29bdc3e5295879de3e58f5",
+                "reference": "f6290983c8725d0afa29bdc3e5295879de3e58f5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "~2.7"
             },
             "type": "library",
             "extra": {
@@ -842,7 +843,10 @@
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Process\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -860,7 +864,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2015-09-19 19:59:23"
+            "time": "2015-11-19 16:11:24"
         },
         {
             "name": "twig/twig",
@@ -1285,23 +1289,20 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.7.5",
+            "version": "v2.7.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "31cb2ad0155c95b88ee55fe12bc7ff92232c1770"
+                "reference": "4cfcd7a9fceba662b3c036b7d9a91f6197af046c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/31cb2ad0155c95b88ee55fe12bc7ff92232c1770",
-                "reference": "31cb2ad0155c95b88ee55fe12bc7ff92232c1770",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/4cfcd7a9fceba662b3c036b7d9a91f6197af046c",
+                "reference": "4cfcd7a9fceba662b3c036b7d9a91f6197af046c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "symfony/phpunit-bridge": "~2.7"
             },
             "type": "library",
             "extra": {
@@ -1312,7 +1313,10 @@
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Yaml\\": ""
-                }
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1330,7 +1334,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-09-14 14:14:09"
+            "time": "2015-11-18 13:41:01"
         }
     ],
     "aliases": [],

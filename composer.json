@@ -23,12 +23,12 @@
     "prefer-stable": true,
     "autoload": {
         "psr-0": {
-            "Kwf_Owlcarousel_": ""
+            "Owlcarousel_": ""
         }
     },
     "autoload-dev": {
         "psr-0": {
-            "Kwf_Owlcarousel_": "tests"
+            "Owlcarousel_": "tests"
         }
     }
 }
