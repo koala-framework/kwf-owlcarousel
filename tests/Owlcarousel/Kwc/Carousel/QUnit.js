@@ -1,5 +1,5 @@
 function createIframe() {
-    var url = '/kwf/kwctest/Kwf_Owlcarousel_Kwc_Carousel_Root/page1';
+    var url = '/kwf/kwctest/Owlcarousel_Kwc_Carousel_Root/page1';
     $('#iframeContainer').html(
         '<iframe src="'+url+'" />'
     );
@@ -14,7 +14,7 @@ QUnit.asyncTest("Check Next and Prev", function( assert ) {
         var win = this;
         var $ = win.$;
 
-        var carousel = $('.kwfOwlcarouselKwcCarousel');
+        var carousel = $('.owlcarouselKwcCarousel');
         assert.ok( carousel.length == 1, "Carousel found" );
 
         var translatedNum = 0;
@@ -52,7 +52,7 @@ QUnit.asyncTest("Check Events", function( assert ) {
         var win = this;
         var $ = win.$;
 
-        var carousel = $('.kwfOwlcarouselKwcCarousel');
+        var carousel = $('.owlcarouselKwcCarousel');
         assert.ok( carousel.length == 1, "Carousel found" );
 
         var eventCalled = 0;

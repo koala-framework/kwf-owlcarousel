@@ -1,4 +1,4 @@
-Kwf.onJElementReady('.kwfOwlcarouselKwcCarousel', function(el, config) {
+Kwf.onJElementReady('.owlcarouselKwcCarousel', function(el, config) {
     el.height(''); //remove maximum height as calculated in Component.js
     if (Modernizr && Modernizr.touch) {
         config.carouselConfig.smartSpeed = config.carouselConfig.touchSmartSpeed;

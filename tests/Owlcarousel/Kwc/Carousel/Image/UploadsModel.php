@@ -1,5 +1,5 @@
 <?php
-class Kwf_Owlcarousel_Kwc_Carousel_Image_UploadsModel extends Kwf_Test_Uploads_Model
+class Owlcarousel_Kwc_Carousel_Image_UploadsModel extends Kwf_Test_Uploads_Model
 {
     public function __construct($config = array())
     {
