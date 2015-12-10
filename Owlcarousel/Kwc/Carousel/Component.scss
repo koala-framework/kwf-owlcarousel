@@ -1,14 +1,14 @@
 @import "compass/utilities/general/clearfix";
 
-.cssClass {
+.kwcClass {
     margin: auto;
     position: relative;
 
-    .listWrapper {
+    &__listWrapper {
         @include pie-clearfix;
         position: relative;
     }
-    .imageWrapper {
+    &__imageWrapper {
         @include pie-clearfix;
         position: relative;
     }
@@ -28,17 +28,6 @@
             right: 0;
             height: 100%;
             text-indent: -9999px;
-        }
-    }
-
-    &.fullwidth {
-        .listWrapper {
-            .listItem {
-                margin-left: 20px;
-            }
-        }
-        .imageWrapper {
-            left: 0;
         }
     }
 }

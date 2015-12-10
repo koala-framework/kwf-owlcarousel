@@ -1,0 +1,10 @@
+<div class="{{ rootElementClass }}">
+    {{ config|hiddenOptions }}
+    <div class="{{ listClass }}">
+        {% for item in listItems %}
+        <div class="{{ item.class }}" style="{{ item.style }}">
+            {{ renderer.component(item.data) }}
+        </div>
+        {% endfor %}
+    </div>
+</div>
