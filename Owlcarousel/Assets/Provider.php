@@ -5,8 +5,8 @@ class Owlcarousel_Assets_Provider extends Kwf_Assets_Provider_Abstract
     {
         if ($dependencyName == 'owlcarousel') {
             $replacements = array(
-                '(function($,window,document,undefined){' => "var $=require('jQuery');",
-                '(function($,Modernizr,window,document,undefined){' => "var $=require('jQuery');",
+                '(function($,window,document,undefined){' => "var $=jQuery=require('jQuery');",
+                '(function($,Modernizr,window,document,undefined){' => "var $=jQuery=require('jQuery');",
                 '})(window.Zepto||window.jQuery,window,document);' => '',
                 '})(window.Zepto||window.jQuery,window.Modernizr,window,document);' => '',
             );
