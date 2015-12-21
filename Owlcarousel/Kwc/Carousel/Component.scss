@@ -4,11 +4,11 @@
     margin: auto;
     position: relative;
 
-    &__listWrapper {
+    .kwcBem__listWrapper {
         @include pie-clearfix;
         position: relative;
     }
-    &__imageWrapper {
+    .kwcBem__imageWrapper {
         @include pie-clearfix;
         position: relative;
     }
