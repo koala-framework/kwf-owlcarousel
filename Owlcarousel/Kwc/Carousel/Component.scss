@@ -12,8 +12,8 @@
         @include pie-clearfix;
         position: relative;
     }
-    .owl-nav {
-        .owl-prev {
+    .kwfUp-owl-nav {
+        .kwfUp-owl-prev {
             width: 39px;
             position: absolute;
             height: 100%;
@@ -21,7 +21,7 @@
             left: 0;
             text-indent: -9999px;
         }
-        .owl-next {
+        .kwfUp-owl-next {
             width: 39px;
             position: absolute;
             top: 0;
