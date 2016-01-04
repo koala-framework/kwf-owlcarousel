@@ -3,8 +3,8 @@ var onReady = require('kwf/on-ready');
 
 onReady.onRender('.kwcClass', function(el, config) {
     el.height(''); //remove maximum height as calculated in Component.js
-    var sync1 = el.find(".large.owl-carousel"),
-        sync2 = el.find(".thumbnail.owl-carousel"),
+    var sync1 = el.find(".large.kwfUp-owl-carousel"),
+        sync2 = el.find(".thumbnail.kwfUp-owl-carousel"),
         isChanging = false,
         duration = 300;
 
@@ -18,7 +18,7 @@ onReady.onRender('.kwcClass', function(el, config) {
         });
 
     sync2.owlCarousel(config.carouselConfig.thumbnail)
-        .on('click', '.owl-item', function () {
+        .on('click', '.kwfUp-owl-item', function () {
             sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
 
         })

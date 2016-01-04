@@ -37,7 +37,7 @@ class Owlcarousel_Kwc_Carousel_Component extends Kwc_Abstract_List_Component
         );
         if (count($ret['listItems']) > 1) {
             $ret['listClass'] = $this->_getBemClass('listWrapper');
-            $ret['listClass'] .= ' owl-carousel';
+            $ret['listClass'] .= ' kwfUp-owl-carousel';
         } else {
             $ret['listClass'] = $this->_getBemClass('imageWrapper');
         }

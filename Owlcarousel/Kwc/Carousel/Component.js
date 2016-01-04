@@ -3,7 +3,7 @@ var onReady = require('kwf/on-ready');
 
 onReady.onRender('.kwcClass', function(el, config) {
     var listWrapper = el.find('.kwcClass__listWrapper');
-    listWrapper.css('display', 'block'); //show to be able to measure (.owl-carousel sets display: none)
+    listWrapper.css('display', 'block'); //show to be able to measure (.kwfUp-owl-carousel sets display: none)
     var maxHeight = 0;
     var items = listWrapper.find('.kwcClass__listItem');
     if (items.length) {
