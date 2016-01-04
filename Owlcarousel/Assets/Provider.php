@@ -4,12 +4,17 @@ class Owlcarousel_Assets_Provider extends Kwf_Assets_Provider_Abstract
     public function getDependency($dependencyName)
     {
         if ($dependencyName == 'owlcarousel') {
+            $cssReplacements = array();
             $replacements = array(
                 '(function($,window,document,undefined){' => "var $=jQuery=require('jQuery');",
                 '(function($,Modernizr,window,document,undefined){' => "var $=jQuery=require('jQuery');",
                 '})(window.Zepto||window.jQuery,window,document);' => '',
                 '})(window.Zepto||window.jQuery,window.Modernizr,window,document);' => '',
             );
+            if (Kwf_Config::getValue('application.uniquePrefix')) {
+                $cssReplacements['.owl-'] = '.'.Kwf_Config::getValue('application.uniquePrefix').'-owl-';
+                $replacements['owl-'] = Kwf_Config::getValue('application.uniquePrefix').'-owl-';
+            }
             $files = array(
                 'owl.carousel/src/js/owl.carousel.js',
                 'owl.carousel/src/css/owl.carousel.css',
@@ -36,6 +41,8 @@ class Owlcarousel_Assets_Provider extends Kwf_Assets_Provider_Abstract
                     $dep->setIsCommonJsEntry(true);
                     $dep = new Kwf_Assets_Dependency_Decorator_StringReplace($dep, $replacements);
                     $dep->addDependency(Kwf_Assets_Dependency_Abstract::DEPENDENCY_TYPE_COMMONJS, $this->_providerList->findDependency('jQuery'), 'jQuery');
+                } else {
+                    $dep = new Kwf_Assets_Dependency_Decorator_StringReplace($dep, $cssReplacements);
                 }
                 $deps[] = $dep;
             }
