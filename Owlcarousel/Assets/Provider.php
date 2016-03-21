@@ -34,15 +34,33 @@ class Owlcarousel_Assets_Provider extends Kwf_Assets_Provider_Abstract
                 //'owl.carousel/src/css/owl.theme.default.css',
                 //'owl.carousel/src/css/owl.theme.green.css',
             );
+
+
+            //Support Kwf 4.0 ($needsProviderList=false) and 4.1+ ($needsProviderList=true)
+            $reflection = new ReflectionClass('Kwf_Assets_Dependency_Abstract');
+            $params = $reflection->getConstructor()->getParameters();
+            $needsProviderList = false;
+            if ($params && $params[0]->getName() == 'providerList') {
+                $needsProviderList = true;
+            }
+
             $deps = array();
             foreach ($files as $file) {
                 $dep = Kwf_Assets_Dependency_File::createDependency($file, $this->_providerList);
                 if ($dep->getMimeType() == 'text/javascript') {
                     $dep->setIsCommonJsEntry(true);
-                    $dep = new Kwf_Assets_Dependency_Decorator_StringReplace($dep, $replacements);
+                    if ($needsProviderList) {
+                        $dep = new Kwf_Assets_Dependency_Decorator_StringReplace($this->_providerList, $dep, $replacements);
+                    } else {
+                        $dep = new Kwf_Assets_Dependency_Decorator_StringReplace($dep, $replacements);
+                    }
                     $dep->addDependency(Kwf_Assets_Dependency_Abstract::DEPENDENCY_TYPE_COMMONJS, $this->_providerList->findDependency('jQuery'), 'jQuery');
                 } else {
-                    $dep = new Kwf_Assets_Dependency_Decorator_StringReplace($dep, $cssReplacements);
+                    if ($needsProviderList) {
+                        $dep = new Kwf_Assets_Dependency_Decorator_StringReplace($this->_providerList, $dep, $cssReplacements);
+                    } else {
+                        $dep = new Kwf_Assets_Dependency_Decorator_StringReplace($dep, $cssReplacements);
+                    }
                 }
                 $deps[] = $dep;
             }
@@ -53,7 +71,12 @@ class Owlcarousel_Assets_Provider extends Kwf_Assets_Provider_Abstract
             $deps[] = $this->_providerList->findDependency('ModernizrCssTransforms3d');
             $deps[] = $this->_providerList->findDependency('ModernizrPrefixed');
 
-            return new Kwf_Assets_Dependency_Dependencies($deps, $dependencyName);
+            if ($needsProviderList) {
+                $ret = new Kwf_Assets_Dependency_Dependencies($this->_providerList, $deps, $dependencyName);
+            } else {
+                $ret = new Kwf_Assets_Dependency_Dependencies($deps, $dependencyName);
+            }
+            return $ret;
         }
 
         return null;
