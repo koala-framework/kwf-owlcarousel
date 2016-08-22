@@ -1,9 +1,9 @@
 <?php
 class Owlcarousel_Kwc_Thumbnails_Child_Component extends Kwc_Abstract_Composite_Component
 {
-    public static function getSettings()
+    public static function getSettings($param = null)
     {
-        $ret = parent::getSettings();
+        $ret = parent::getSettings($param);
         $ret['componentName'] = trlKwfStatic('Slider item');
         $ret['generators']['child']['component']['thumbnail'] = 'Owlcarousel_Kwc_Thumbnails_Child_Thumbnail_Component';
         $ret['generators']['child']['component']['large'] = 'Owlcarousel_Kwc_Thumbnails_Child_Large_Component';
