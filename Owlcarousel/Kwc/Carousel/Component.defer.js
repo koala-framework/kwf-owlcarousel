@@ -10,7 +10,6 @@ onReady.onRender('.kwcClass', function(el, config) {
         config.carouselConfig['startPosition'] = Math.floor(Math.random() * config.countItems);
         delete config.carouselConfig['startRandom'];
     }
-    el.find('.kwcClass__listWrapper').owlCarousel(config.carouselConfig);
-
+    el.find('.kwcBem__listWrapper').owlCarousel(config.carouselConfig);
     onReady.callOnContentReady(el, { action: 'render' });
 });
